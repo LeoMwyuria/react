@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Footerbutton() {
+function Footerbutton(footerbtn) {
   return (
-    <div>
-      <button className='footerbutton'></button>
+    <div className='buttondiv'>
+      <button className='footerbutton'>{footerbtn.text}</button>
     </div>
   )
 }

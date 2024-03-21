@@ -1,7 +1,8 @@
 body {
+  padding: 0;
   margin: 0;
-  font-family: 
-    'Ubuntu'; 
+  font-family: 'Ubuntu'; 
+  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(238, 236, 234);
@@ -172,4 +173,29 @@ height: 430px;
 }
 .tags{
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+}
+.footerbutton{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 120px;
+  border: 0px;
+  height: 60px;
+  margin-left: 10px;
+  
+}
+.footerbutton:hover{
+  background-color: rgb(41, 41, 41);
+}
+.buttondiv{
+  display: inline-block;
+}
+.footer{
+  background-color: rgb(36, 35, 35);
+  height: 150px;
+  
+}
+.footerp{
+  color: white;
+  margin-left: 10px;
 }
